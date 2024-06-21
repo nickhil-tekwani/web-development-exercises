@@ -1,0 +1,23 @@
+{
+  "name": "week-3-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEU-CS5610-2022-01-VAN/week-3-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEU-CS5610-2022-01-VAN/week-3-javascript/issues"
+  },
+  "homepage": "https://github.com/NEU-CS5610-2022-01-VAN/week-3-javascript#readme",
+  "devDependencies": {
+    "jest": "^27.5.0"
+  }
+}

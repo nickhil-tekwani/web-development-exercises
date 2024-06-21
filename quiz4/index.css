@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.main-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 42px;
+}
+
+.menu {
+  max-width: 1500px;
+  height: 50px;
+  border-bottom: 1px solid black;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  align-items: center;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  max-width: 1500px;
+}
+
+.article {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid black;
+}
+
+.small {
+  flex-basis: 25%;
+}
+
+.big {
+  flex-basis: 50%;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.article-title {
+  text-align: center;
+}
+
+.footer {
+  height: 80px;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+
+.section-color {
+  height: 80px;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}

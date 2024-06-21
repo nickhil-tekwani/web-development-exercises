@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="page">
+        <nav class="page__menu page__custom-settings menu">
+          <ul class="menu__list r-list">
+            <li class="menu__group"><a href="index.html" class="menu__link r-link text-underlined">Add a New Course</a></li>
+            <li class="menu__group"><a href="view.html" class="menu__link r-link text-underlined">App Information</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    <div class="form-wrapper">
+      <form class="course-form" autocomplete="off">
+        <div>
+          <!-- <label for="coursename">Course Name: &nbsp;&nbsp;&nbsp; </label> -->
+          <input type="text" name="coursename" id="coursename" placeholder="enter course name" required />
+        </div>
+        <div>  
+          <textarea id="coursedesc" name="coursedesc" rows="3" placeholder="enter course description" required></textarea>
+        </div>
+        <div class="glow-on-hover">
+          <input class="submit-button glow-on-hover" type="submit" value="add course" />
+        </div>
+      </form>
+    </div>
+    <div class="courses-list-wrapper">
+      <ul class="courses-list">
+      </ul>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

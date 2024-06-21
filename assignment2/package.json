@@ -1,0 +1,19 @@
+{
+  "name": "assignment-2-nickhil-tekwani",
+  "version": "1.0.0",
+  "description": "Create an API using nodejs and express that does CRUD (Create, Read, Update and Delete) operations using Mysql. Put the API in a `api` folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEU-CS5610-2022-02-VAN/assignment-2-nickhil-tekwani.git"
+  },
+  "author": "Nickhil Tekwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEU-CS5610-2022-02-VAN/assignment-2-nickhil-tekwani/issues"
+  },
+  "homepage": "https://github.com/NEU-CS5610-2022-02-VAN/assignment-2-nickhil-tekwani#readme"
+}

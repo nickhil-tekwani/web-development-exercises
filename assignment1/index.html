@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Assignment 1</title>
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <header class="header">
+            <h1> Northeastern University Campuses </h1>
+        </header>
+
+        <nav class="menu" id="menu">
+            <ul class="menu-items">
+              <li><a href="#" class="index">HOMEPAGE</a></li>
+              <li><a href="boston.html">Boston</a></li>
+              <li><a href="sv.html">Silicon Valley</a></li>
+              <li><a href="vancouver.html">Vancouver</a></li>
+            </ul>
+          </nav>
+
+        <div class="padded-div">
+            <form>
+                <label for="dcolor">
+                    Desired Theme Color (in 
+                    <a href="https://htmlcolorcodes.com/" target="_blank">hex format</a>,
+                    without the '#'):
+                </label>
+                <input type="text" id="dcolor" name="dcolor" required>
+                <br />
+                <br />
+                <button type="submit" class="button" id="submitButton"> Click Here or Press ENTER to Change Theme Color </button>
+              </form> 
+        </div>
+
+        <h4> This Session's Color History: </h4> 
+
+        <ol class="historyList">
+        </ol>
+        <em> (<a href="/">Refresh Page</a> to reset history and theme color) </em>
+
+        <!-- scripts -->
+        <script src="scripts/ntc.js"></script>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
